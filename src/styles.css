@@ -1,0 +1,168 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  
+  h2 {
+    color: #343a40;
+  }
+  
+  
+  .home-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .heading{
+    color: white;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .book-card {
+    width: calc(33% - 40px);
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .book-card h3 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .book-card p {
+    margin: 5px 0;
+  }
+  
+  .book-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .book-card a:hover {
+    color: #0056b3;
+  }
+  
+  
+  .book-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-details h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .book-details p {
+    line-height: 1.6;
+    color: #6c757d;
+  }
+  
+  .book-details button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .my-library {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .my-library h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .my-library ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .my-library ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .my-library ul li button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .my-library ul li button:hover {
+    background-color: #c82333;
+  }
+  
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
